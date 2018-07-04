@@ -1,0 +1,233 @@
+2018-07-04 14:35:12 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 14:35:18 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\Login163.py", line 48, in <module>
+    test_data_file.write_cell_content(id+2,action_slapse_time_col_no,elapse_time)
+  File "C:\Users\jingyu\test_driven_by_keyword\Util\Exel.py", line 95, in write_cell_content
+    self.workbook.save(self.excel_file_path)
+  File "D:\python\lib\site-packages\openpyxl\workbook\workbook.py", line 342, in save
+    save_workbook(self, filename)
+  File "D:\python\lib\site-packages\openpyxl\writer\excel.py", line 264, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\python\lib\zipfile.py", line 756, in __init__
+    self.fp = open(file, modeDict[mode])
+IOError: [Errno 13] Permission denied: u'C:\\Users\\jingyu\\test_driven_by_keyword/TestData/testcase.xlsx'
+
+2018-07-04 14:35:33 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 14:35:38 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:46 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:50 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:50 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:51 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:52 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:55 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:58 Log.py[line:19] INFO 执行成功
+2018-07-04 14:35:58 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:00 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:00 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 14:36:02 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:06 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:06 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:07 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:08 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:11 Log.py[line:19] INFO 执行成功
+2018-07-04 14:36:11 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 103, in assert_button_word
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-07-04 14:36:12 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1
+    click('xpath','//div[@class='box-content']/div[@class='tac']/input[@class='g-btn-green finish box-ok']"')
+                                   ^
+SyntaxError: invalid syntax
+
+2018-07-04 14:36:13 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:16 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 14:53:20 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:26 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:29 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:29 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:30 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:31 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:31 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:34 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:36 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:37 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:37 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 14:53:39 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:43 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:44 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:45 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:45 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:48 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:49 Log.py[line:19] INFO 执行成功
+2018-07-04 14:53:49 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1
+    click('xpath','//div[@class='box-content']/div[@class='tac']/input[@class='g-btn-green finish box-ok']"')
+                                   ^
+SyntaxError: invalid syntax
+
+2018-07-04 14:53:51 Log.py[line:19] INFO 执行成功
+2018-07-04 15:02:33 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 15:02:39 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\Login163.py", line 48, in <module>
+    test_data_file.write_cell_content(id+2,action_slapse_time_col_no,elapse_time)
+  File "C:\Users\jingyu\test_driven_by_keyword\Util\Exel.py", line 95, in write_cell_content
+    self.workbook.save(self.excel_file_path)
+  File "D:\python\lib\site-packages\openpyxl\workbook\workbook.py", line 342, in save
+    save_workbook(self, filename)
+  File "D:\python\lib\site-packages\openpyxl\writer\excel.py", line 264, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "D:\python\lib\zipfile.py", line 756, in __init__
+    self.fp = open(file, modeDict[mode])
+IOError: [Errno 13] Permission denied: u'C:\\Users\\jingyu\\test_driven_by_keyword/TestData/testcase.xlsx'
+
+2018-07-04 15:02:56 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 15:03:01 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:09 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:12 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:18 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:19 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:20 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:25 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:27 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:30 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:34 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:35 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 15:03:37 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:41 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:41 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:42 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:42 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:48 Log.py[line:19] INFO 执行成功
+2018-07-04 15:03:49 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1
+    click('xpath','//div[@class='box-content']/div[@class='tac']/input[@class='g-btn-green finish box-ok']"')
+                                   ^
+SyntaxError: invalid syntax
+
+2018-07-04 15:03:50 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:15 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 15:05:21 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:25 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:28 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:29 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:30 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:30 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:32 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:34 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:35 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:36 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:36 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 15:05:37 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:40 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:41 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:42 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:43 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:49 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:49 Log.py[line:19] INFO 执行成功
+2018-07-04 15:05:50 Log.py[line:19] INFO 执行成功
+2018-07-04 15:10:58 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 15:11:03 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:07 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:10 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:11 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:13 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:13 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:14 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:16 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:16 Log.py[line:15] ERROR 出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\Login163.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 110, in assert_title
+    raise e
+AssertionError
+
+2018-07-04 15:11:18 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:18 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 15:11:20 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:23 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:29 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 72, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-07-04 15:11:35 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 65, in input_string
+    raise e
+TimeoutException: Message: 
+
+
+2018-07-04 15:11:42 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 72, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-07-04 15:11:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:11:50 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 104, in assert_button_word
+    raise e
+TimeoutException: Message: 
+
+
+2018-07-04 15:11:55 Log.py[line:19] INFO 执行成功
+2018-07-04 15:12:00 Log.py[line:15] ERROR 写excel出错，Traceback (most recent call last):
+  File "C:\Users\jingyu\test_driven_by_keyword\TestScript\basicinfo_rename.py", line 46, in <module>
+    result=eval(command_line)
+  File "<string>", line 1, in <module>
+  File "C:\Users\jingyu\test_driven_by_keyword\Action\Action.py", line 72, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-07-04 15:12:02 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:07 Log.py[line:19] INFO 现在操作的Excel表是：登录
+2018-07-04 15:14:12 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:15 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:18 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:19 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:20 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:21 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:21 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:23 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:25 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:26 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:26 Log.py[line:19] INFO 现在操作的Excel表是：更改昵称
+2018-07-04 15:14:32 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:35 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:36 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:37 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:38 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:40 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:41 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:44 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:45 Log.py[line:19] INFO 执行成功
+2018-07-04 15:14:46 Log.py[line:19] INFO 执行成功
