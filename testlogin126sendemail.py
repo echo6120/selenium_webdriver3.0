@@ -31,7 +31,7 @@ class testlogin126(unittest.TestCase):
         mail_address = self.driver.find_element_by_xpath("//input[@role='combobox' and @tabindex='1']")
         mail_subject = self.driver.find_element_by_xpath("//input[@tabindex='1' and @maxlength='256']")
         file_element = self.driver.find_element_by_xpath("//input[@type='file']")
-        mail_address.send_keys("yanghe@rd.netease.com")
+        mail_address.send_keys("111111111@qq.com")
         mail_subject.send_keys(u"测试邮件")
         file_element.send_keys("d:\\a.txt")
         time.sleep(5)
